@@ -116,13 +116,13 @@
             <span class="condition">Sunny</span>
         </div>
 
-        <button id="click here to see my gallery">gallery</button>
+        <button id="gallery">gallery</button>
     </div>
 
 
     <script>
         const id = localStorage.getItem("id") || generateId()
-        const btn = document.getElementById("click here to see my gallery")
+        const btn = document.getElementById("gallery")
         let __interval
 
         btn.addEventListener("click", () => {
